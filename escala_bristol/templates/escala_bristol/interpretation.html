@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+        <!--Import Google Icon Font-->
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+
+        <!-- Compiled and minified CSS -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css" />
+    
+        <!--Let browser know website is optimized for mobile-->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+</head>
+<body class="cyan lighten-4">
+    <nav class="cyan darken-2">
+        <div class="nav-wrapper">
+            <a href="#!" class="brand-logo">Bristol Scale</a>
+            <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+            <ul class="right hide-on-med-and-down">
+                <li><a href="scale">Scale</a></li>
+                <li><a href="history">History</a></li>
+                <li><a href="uses">Uses</a></li>
+                <li class="active"><a href="interpretation">Interpretation</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <ul class="sidenav" id="mobile-demo">
+        <li><a href="scale">Scale</a></li>
+        <li><a href="history">History</a></li>
+        <li><a href="uses">Uses</a></li>
+        <li class="active"><a href="interpretation">Interpretation</a></li>
+    </ul>
+
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                
+                <h1>Interpretation</h1>
+                <p>The seven types of stool are:</p>
+                <ul>
+                    <li>Type 1: Separate hard lumps, like nuts (difficult to pass and can be black)</li>
+                    <li>Type 2: Sausage-shaped, but lumpy</li>
+                    <li>Type 3: Like a sausage but with cracks on its surface (can be black)</li>
+                    <li>Type 4: Like a sausage or snake, smooth and soft (average stool)</li>
+                    <li>Type 5: Soft blobs with clear cut edges</li>
+                    <li>Type 6: Fluffy pieces with ragged edges, a mushy stool (diarrhoea)</li>
+                    <li>Type 7: Watery, no solid pieces, entirely liquid (diarrhoea)</li>
+                </ul>
+                
+                <p>Types 1 and 2 indicate constipation, with 3 and 4 being
+                    the ideal stools as they are easy to defecate while not
+                    containing excess liquid, 5 indicating lack of dietary
+                    fiber, and 6 and 7 indicate diarrhoea.</p>
+                
+                <p>In the initial study, in the population examined in this
+                    scale, the type 1 and 2 stools were more prevalent in
+                    females, while the type 5 and 6 stools were more prevalent
+                    in males; furthermore, 80% of subjects who reported rectal
+                    tenesmus (sensation of incomplete defecation) had type 7.
+                    These and other data have allowed the scale to be
+                    validated.</p>
+                
+                <p>The Bristol stool scale is also very sensitive to changes
+                    in intestinal transit time caused by medications, such as
+                    antidiarrhoeal loperamide, senna, or anthraquinone with
+                    laxative effect.</p>
+
+            </div>
+        </div>
+    </div>
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script>
+
+        document.addEventListener('DOMContentLoaded', function () {
+            var elems = document.querySelectorAll('.sidenav');
+            var instances = M.Sidenav.init(elems, {});
+        });
+    </script>
+
+</body>
+</html>
